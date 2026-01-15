@@ -1232,6 +1232,16 @@ tbody tr:hover {
     font-weight: 700;
 }
 
+.research-note .bubble {
+    background: rgba(212, 175, 55, 0.05);
+    border: 1px dashed var(--border-gold);
+    color: var(--primary-gold);
+    font-size: 0.85rem;
+    font-style: italic;
+    opacity: 0.9;
+    padding: 0.6rem 1rem;
+}
+
 @keyframes ai-pulse {
     0% {
         opacity: 0.4;
